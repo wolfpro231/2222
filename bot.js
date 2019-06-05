@@ -11,7 +11,7 @@ client.on('message', message => {
       
   if (message.content.startsWith(adminprefix + 'st2')) {
     client.user.setGame(argresult);
-      message.channel.send(`**تـــ تغيير الحالة ــم   ${argresult}**`)
+      message.channel.send(`**تـــ 1تغيير الحالة ــم   ${argresult}**`)
   } else 
      if (message.content === (adminprefix + "leave")) {
     message.guild.leave();        
